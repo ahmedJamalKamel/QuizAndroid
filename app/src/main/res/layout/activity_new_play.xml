@@ -116,7 +116,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.wrteam.quiz.helper.CircleTimer
+                        <com.abasathalak.mcqsapp.helper.CircleTimer
                             android:id="@+id/progressTimer"
                             android:layout_width="50dp"
                             android:layout_height="50dp"

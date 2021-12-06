@@ -76,7 +76,7 @@
                     android:orientation="vertical">
 
 
-                    <com.wrteam.quiz.helper.CircleImageView
+                    <com.abasathalak.mcqsapp.helper.CircleImageView
                         android:id="@+id/imgPlayer1"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
@@ -117,7 +117,7 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <com.wrteam.quiz.helper.CircleImageView
+                    <com.abasathalak.mcqsapp.helper.CircleImageView
                         android:id="@+id/imgPlayer2"
                         android:layout_width="80dp"
                         android:layout_height="80dp"

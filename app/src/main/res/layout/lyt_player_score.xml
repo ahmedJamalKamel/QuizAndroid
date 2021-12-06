@@ -11,7 +11,7 @@
 
 
 
-    <com.wrteam.quiz.helper.CircleImageView
+    <com.abasathalak.mcqsapp.helper.CircleImageView
         android:id="@+id/image"
         android:layout_width="35dp"
         android:layout_height="35dp"

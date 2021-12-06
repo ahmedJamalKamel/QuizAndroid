@@ -27,7 +27,7 @@
             android:orientation="vertical">
 
 
-            <com.wrteam.quiz.helper.CircleImageView
+            <com.abasathalak.mcqsapp.helper.CircleImageView
                 android:id="@+id/imgPlayer1"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
@@ -152,7 +152,7 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <com.wrteam.quiz.helper.CircleImageView
+            <com.abasathalak.mcqsapp.helper.CircleImageView
                 android:id="@+id/imgPlayer2"
                 android:layout_width="35dp"
                 android:layout_height="35dp"

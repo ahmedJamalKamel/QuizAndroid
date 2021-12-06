@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/bg_color"
-    tools:context="com.wrteam.quiz.activity.CompleteActivity">
+    tools:context="com.abasathalak.mcqsapp.activity.CompleteActivity">
 
 
     <androidx.core.widget.NestedScrollView
@@ -123,7 +123,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1.4">
 
-                            <com.wrteam.quiz.helper.AudienceProgress
+                            <com.abasathalak.mcqsapp.helper.AudienceProgress
                                 android:id="@+id/result_progress"
                                 android:layout_width="@dimen/result_circle"
                                 android:layout_height="@dimen/result_circle"

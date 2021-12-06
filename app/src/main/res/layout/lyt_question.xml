@@ -32,7 +32,7 @@
                 android:textColor="@color/txt_color"
                 android:textSize="@dimen/default_text_size" />
         </ScrollView>
-        <com.wrteam.quiz.helper.TouchImageView
+        <com.abasathalak.mcqsapp.helper.TouchImageView
             android:id="@+id/imgQuestion"
             android:layout_width="match_parent"
             android:layout_height="@dimen/img_height"

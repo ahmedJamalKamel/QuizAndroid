@@ -79,7 +79,7 @@
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent">
 
-                                    <com.wrteam.quiz.helper.CircleImageView
+                                    <com.abasathalak.mcqsapp.helper.CircleImageView
                                         android:id="@+id/img2"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
@@ -161,7 +161,7 @@
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent">
 
-                                    <com.wrteam.quiz.helper.CircleImageView
+                                    <com.abasathalak.mcqsapp.helper.CircleImageView
                                         android:id="@+id/img1"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
@@ -234,7 +234,7 @@
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent">
 
-                                    <com.wrteam.quiz.helper.CircleImageView
+                                    <com.abasathalak.mcqsapp.helper.CircleImageView
                                         android:id="@+id/img3"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
@@ -337,7 +337,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1.4">
 
-                            <com.wrteam.quiz.helper.AudienceProgress
+                            <com.abasathalak.mcqsapp.helper.AudienceProgress
                                 android:id="@+id/result_progress"
                                 android:layout_width="@dimen/result_circle"
                                 android:layout_height="@dimen/result_circle"

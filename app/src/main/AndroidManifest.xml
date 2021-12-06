@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.wrteam.quiz"
+    package="com.abasathalak.mcqsapp"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -37,7 +37,7 @@
         android:resizeable="true" />
 
     <application
-        android:name=".helper.AppController"
+        android:name="com.abasathalak.mcqsapp.helper.AppController"
         android:allowBackup="false"
         android:icon="@drawable/ic_homelogo"
         android:label="@string/app_name"
@@ -58,10 +58,10 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity android:name=".activity.InviteFriendActivity" />
-        <activity android:name=".activity.DrawerActivity" />
+        <activity android:name="com.abasathalak.mcqsapp.activity.InviteFriendActivity" />
+        <activity android:name="com.abasathalak.mcqsapp.activity.DrawerActivity" />
         <activity
-            android:name=".activity.SplashActivity"
+            android:name="com.abasathalak.mcqsapp.activity.SplashActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
@@ -71,23 +71,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.LoginTabActivity"
+            android:name="com.abasathalak.mcqsapp.activity.LoginTabActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".activity.SettingActivity"
+            android:name="com.abasathalak.mcqsapp.activity.SettingActivity"
             android:label=""
             android:theme="@style/Theme.AppCompat.Light.Dialog" />
 
         <activity
-            android:name=".activity.InstructionActivity"
+            android:name="com.abasathalak.mcqsapp.activity.InstructionActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.CoinStoreActivity"
+            android:name="com.abasathalak.mcqsapp.activity.CoinStoreActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ReviewActivity"
+            android:name="com.abasathalak.mcqsapp.activity.ReviewActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.facebook.FacebookActivity"
@@ -113,103 +113,103 @@
             android:value="@string/facebook_app_id" />
 
         <activity
-            android:name=".activity.BookmarkList"
+            android:name="com.abasathalak.mcqsapp.activity.BookmarkList"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.PrivacyPolicy"
+            android:name="com.abasathalak.mcqsapp.activity.PrivacyPolicy"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.LeaderboardTabActivity"
+            android:name="com.abasathalak.mcqsapp.activity.LeaderboardTabActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.PlayActivity"
+            android:name="com.abasathalak.mcqsapp.activity.PlayActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.BookmarkPlay"
+            android:name="com.abasathalak.mcqsapp.activity.BookmarkPlay"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".one_to_one.PlayOneToOne"
+            android:name="com.abasathalak.mcqsapp.one_to_one.PlayOneToOne"
             android:screenOrientation="portrait" />
-        <activity android:name=".activity.LearningZoneActivity"
+        <activity android:name="com.abasathalak.mcqsapp.activity.LearningZoneActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".activity.LearningChapterActivity"
+        <activity android:name="com.abasathalak.mcqsapp.activity.LearningChapterActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.TournamentPlay"
+            android:name="com.abasathalak.mcqsapp.activity.TournamentPlay"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ContestActivity"
+            android:name="com.abasathalak.mcqsapp.activity.ContestActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.PracticeQuiz"
+            android:name="com.abasathalak.mcqsapp.activity.PracticeQuiz"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.abasathalak.mcqsapp.activity.MainActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".activity.CompleteActivity"
+            android:name="com.abasathalak.mcqsapp.activity.CompleteActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.LevelActivity"
+            android:name="com.abasathalak.mcqsapp.activity.LevelActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.SubcategoryActivity"
+            android:name="com.abasathalak.mcqsapp.activity.SubcategoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.DailyCompleteActivity"
+            android:name="com.abasathalak.mcqsapp.activity.DailyCompleteActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.CategoryActivity"
+            android:name="com.abasathalak.mcqsapp.activity.CategoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ProfileActivity"
+            android:name="com.abasathalak.mcqsapp.activity.ProfileActivity"
             android:screenOrientation="portrait"
 
             android:windowSoftInputMode="stateAlwaysHidden"
 
             />
         <activity
-            android:name=".activity.NotificationList"
+            android:name="com.abasathalak.mcqsapp.activity.NotificationList"
             android:launchMode="singleTop" />
         <activity
-            android:name=".activity.UserStatistics"
+            android:name="com.abasathalak.mcqsapp.activity.UserStatistics"
             android:launchMode="singleTop" />
         <activity
-            android:name=".activity.NewSelfChallengeActivity"
+            android:name="com.abasathalak.mcqsapp.activity.NewSelfChallengeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.BattlePlayActivity"
+            android:name="com.abasathalak.mcqsapp.activity.BattlePlayActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.RobotPlayActivity"
+            android:name="com.abasathalak.mcqsapp.activity.RobotPlayActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.CompleteActivityTournaments"
+            android:name="com.abasathalak.mcqsapp.activity.CompleteActivityTournaments"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.RewardActivity"
+            android:name="com.abasathalak.mcqsapp.activity.RewardActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.SearchPlayerActivity"
+            android:name="com.abasathalak.mcqsapp.activity.SearchPlayerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ResultActivity"
+            android:name="com.abasathalak.mcqsapp.activity.ResultActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.SelfChallengeQuestion"
+            android:name="com.abasathalak.mcqsapp.activity.SelfChallengeQuestion"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".battle.BattleResultActivity"
+            android:name="com.abasathalak.mcqsapp.battle.BattleResultActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".battle.WaitingRoomActivity"
+            android:name="com.abasathalak.mcqsapp.battle.WaitingRoomActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".battle.MultiPlayerGame"
+            android:name="com.abasathalak.mcqsapp.battle.MultiPlayerGame"
             android:screenOrientation="portrait" />
 
         <meta-data
@@ -218,7 +218,7 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" /> <!-- Firebase Notifications -->
-        <service android:name=".service.MyFirebaseMessagingService">
+        <service android:name="com.abasathalak.mcqsapp.service.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -227,8 +227,8 @@
         <activity
             android:name="com.canhub.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name=".one_to_one.OneToOneBattle" />
-        <activity android:name=".one_to_one.OneToOneWait" />
+        <activity android:name="com.abasathalak.mcqsapp.one_to_one.OneToOneBattle" />
+        <activity android:name="com.abasathalak.mcqsapp.one_to_one.OneToOneWait" />
     </application>
 
 </manifest>

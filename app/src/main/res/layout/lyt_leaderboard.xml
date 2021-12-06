@@ -38,7 +38,7 @@
             android:gravity="center"
             android:layoutDirection="ltr">
 
-            <com.wrteam.quiz.helper.CircleImageView
+            <com.abasathalak.mcqsapp.helper.CircleImageView
                 android:id="@+id/imgProfile"
                 android:layout_width="@dimen/progress_h_w"
                 android:layout_height="@dimen/progress_h_w"

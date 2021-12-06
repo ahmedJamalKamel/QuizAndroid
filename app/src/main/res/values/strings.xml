@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Quiz(v7.0.4)</string>
+    <string name="app_name">أبصمجهالك</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="completed">Congratulations!!</string>
@@ -260,7 +260,7 @@
     <string name="new_act">NEW ACCOUNT</string>
     <string name="reset_msg1">Enter the email address \nassociated with your \naccount.</string>
     <string name="reset_msg2">We will email you a link to reset your \npassword</string>
-    <string name="by_wrteam">By WRTeam</string>
+    <string name="by_Abasathalak">By Abasathalak</string>
     <!--facebook appId for login-->
     <string name="facebook_app_id">2338640796222596</string>
     <string name="fb_login_protocol_scheme">fb2338640796222596</string>

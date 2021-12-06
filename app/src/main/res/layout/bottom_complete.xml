@@ -79,7 +79,7 @@
                         android:layout_marginBottom="@dimen/padding_10"
                         android:background="@drawable/button_bg">
 
-                        <com.wrteam.quiz.helper.CircleImageView
+                        <com.abasathalak.mcqsapp.helper.CircleImageView
                             android:id="@+id/winnerImg"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -142,7 +142,7 @@
                         android:layout_marginBottom="@dimen/padding_10"
                         android:background="@drawable/button_bg">
 
-                        <com.wrteam.quiz.helper.CircleImageView
+                        <com.abasathalak.mcqsapp.helper.CircleImageView
                             android:id="@+id/losserimage"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"

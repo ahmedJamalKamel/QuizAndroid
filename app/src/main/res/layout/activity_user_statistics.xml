@@ -45,7 +45,7 @@
                         android:background="@drawable/circle_bg"
                         android:padding="2dp">
 
-                        <com.wrteam.quiz.helper.CircleImageView
+                        <com.abasathalak.mcqsapp.helper.CircleImageView
                             android:id="@+id/imgProfile"
                             android:layout_width="85dp"
                             android:layout_height="85dp"
@@ -330,7 +330,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1">
 
-                    <com.wrteam.quiz.helper.AudienceProgress
+                    <com.abasathalak.mcqsapp.helper.AudienceProgress
                         android:id="@+id/progress"
                         android:layout_width="@dimen/result_circle"
                         android:layout_height="@dimen/result_circle"

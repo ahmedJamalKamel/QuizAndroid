@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">اختبار (v7.0.4)</string>
+    <string name="app_name">أبصمجهالك</string>
     <string name="drawer_open">افتح درج التنقل</string>
     <string name="drawer_close">أغلق درج التنقل</string>
     <string name="completed">تهانينا!!</string>
     <string name="congratulations">تهانينا!!</string>
     <string name="time_challenge_msg">لقد أكملت التحدي في</string>
     <string name="sec">ثانية</string>
-    <string name="not_completed">حظ أفضل التالي Tme</string>
-    <string name="select_level">اختار مستوى</string>
-    <string name="select_category">اختر الفئة</string>
+    <string name="not_completed">حظ أفضل المره القادمه</string>
+    <string name="select_level">اختر مستوى</string>
+    <string name="select_category">اختر الموديول</string>
     <string name="learning_zone">Learning Zone</string>
     <string name="account_delete">حذف الحساب?</string>
     <string name="delete_msg">هل أنت متأكد أنك تريد حذف حسابك؟ \ n لا يمكن التراجع عن هذا الإجراء. بعد حذف حسابك ، سيتم تسجيل خروجك وسيتم إنهاء جميع الجلسات النشطة الأخرى.</string>
@@ -19,7 +19,7 @@
     <string name="daily_quiz">مسابقة يومية</string>
     <string name="random_quiz">مسابقة عشوائية</string>
     <string name="contest">منافسة</string>
-    <string name="sound">يبدو</string>
+    <string name="sound">الصوت</string>
     <string name="apply_code">تطبيق كود الإحالة</string>
     <string name="Username">اسم المستخدم</string>
     <string name="apply">تطبيق</string>
@@ -256,7 +256,7 @@
     <string name="new_act">حساب جديد</string>
     <string name="reset_msg1">أدخل عنوان البريد الإلكتروني \nالمرتبط بحسابك \n.</string>
     <string name="reset_msg2">سنرسل لك ارتباطًا عبر البريد الإلكتروني لإعادة تعيين \nكلمة المرور الخاصة بك</string>
-    <string name="by_wrteam">بواسطة WRTeam</string>
+    <string name="by_Abasathalak">بواسطة أبسطهالك</string>
 
     <string name="facebook_app_id">2338640796222596</string>
     <string name="fb_login_protocol_scheme">fb2338640796222596</string>

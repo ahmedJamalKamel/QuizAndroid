@@ -56,7 +56,7 @@
             android:background="@drawable/circle_bg"
             android:padding="2dp">
 
-            <com.wrteam.quiz.helper.CircleImageView
+            <com.abasathalak.mcqsapp.helper.CircleImageView
                 android:id="@+id/imgProfile"
                 android:layout_width="@dimen/profile_size"
                 android:layout_height="@dimen/profile_size"

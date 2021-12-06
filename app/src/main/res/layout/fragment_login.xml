@@ -235,7 +235,7 @@
                         android:layout_marginEnd="@dimen/margin_dp"
                         android:background="@drawable/google_bg">
 
-                        <com.wrteam.quiz.helper.CircleImageView1
+                        <com.abasathalak.mcqsapp.helper.CircleImageView1
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/margin_10dp"
@@ -252,7 +252,7 @@
 
                         >
 
-                        <com.wrteam.quiz.helper.CircleImageView1
+                        <com.abasathalak.mcqsapp.helper.CircleImageView1
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/margin_10dp"
@@ -267,7 +267,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/guest_bg">
 
-                        <com.wrteam.quiz.helper.CircleImageView1
+                        <com.abasathalak.mcqsapp.helper.CircleImageView1
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             app:srcCompat="@drawable/ic_phoneimg"

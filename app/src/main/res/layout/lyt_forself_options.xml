@@ -64,7 +64,7 @@ android:id="@+id/lytOption"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/black" />
 
-            <com.wrteam.quiz.helper.AudienceProgress
+            <com.abasathalak.mcqsapp.helper.AudienceProgress
                 android:id="@+id/progress_A"
                 android:layout_width="@dimen/circle_progress"
                 android:layout_height="@dimen/circle_progress"
@@ -130,7 +130,7 @@ android:id="@+id/lytOption"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/black" />
 
-            <com.wrteam.quiz.helper.AudienceProgress
+            <com.abasathalak.mcqsapp.helper.AudienceProgress
                 android:id="@+id/progress_B"
                 android:layout_width="@dimen/circle_progress"
                 android:layout_height="@dimen/circle_progress"
@@ -197,7 +197,7 @@ android:id="@+id/lytOption"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/black" />
 
-            <com.wrteam.quiz.helper.AudienceProgress
+            <com.abasathalak.mcqsapp.helper.AudienceProgress
                 android:id="@+id/progress_C"
                 android:layout_width="@dimen/circle_progress"
                 android:layout_height="@dimen/circle_progress"
@@ -263,7 +263,7 @@ android:id="@+id/lytOption"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/black" />
 
-            <com.wrteam.quiz.helper.AudienceProgress
+            <com.abasathalak.mcqsapp.helper.AudienceProgress
                 android:id="@+id/progress_D"
                 android:layout_width="@dimen/circle_progress"
                 android:layout_height="@dimen/circle_progress"
@@ -329,7 +329,7 @@ android:id="@+id/lytOption"
                 android:textColor="@color/black"
          />
 
-            <com.wrteam.quiz.helper.AudienceProgress
+            <com.abasathalak.mcqsapp.helper.AudienceProgress
                 android:id="@+id/progress_E"
                 android:layout_width="@dimen/circle_progress"
                 android:layout_height="@dimen/circle_progress"
