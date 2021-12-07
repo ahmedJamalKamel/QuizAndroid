@@ -181,42 +181,42 @@ public class LoginActivityFragment extends Fragment {
             else
                 setSnackBar(getString(R.string.msg_no_internet), getString(R.string.retry));
         });
-        faceookryt = v.findViewById(R.id.faceookryt);
-        faceookryt.setOnClickListener(view -> {
-            if (Utils.isNetworkAvailable(getActivity())) {
-                LoginManager.getInstance().logInWithReadPermissions(this, Arrays.asList("public_profile", "email"));
-
-                LoginManager.getInstance().registerCallback(mCallbackManager,
-                        new FacebookCallback<LoginResult>() {
-                            @Override
-                            public void onSuccess(LoginResult loginResult) {
-                               // System.out.println("=====sucess login fb");
-                                getActivity().setResult(RESULT_OK);
-                                handleFacebookAccessToken(loginResult.getAccessToken());
-                            }
-
-                            @Override
-                            public void onCancel() {
-                                hideProgressDialog();
-                            }
-
-                            @Override
-                            public void onError(FacebookException error) {
-                                Log.d(TAG, "facebook:onError", error);
-                                error.printStackTrace();
-                            }
-                        });
-
-            } else
-                setSnackBar(getString(R.string.msg_no_internet), getString(R.string.retry));
-        });
-
-        mobileryt = v.findViewById(R.id.mobileryt);
-        mobileryt.setOnClickListener(view -> {
-            MobileBottomshit(LoginTabActivity.mAuth);
-       /*     Intent intent = new Intent(getActivity(), MobileActivity.class);
-            startActivity(intent);*/
-        });
+//        faceookryt = v.findViewById(R.id.faceookryt);
+//        faceookryt.setOnClickListener(view -> {
+//            if (Utils.isNetworkAvailable(getActivity())) {
+//                LoginManager.getInstance().logInWithReadPermissions(this, Arrays.asList("public_profile", "email"));
+//
+//                LoginManager.getInstance().registerCallback(mCallbackManager,
+//                        new FacebookCallback<LoginResult>() {
+//                            @Override
+//                            public void onSuccess(LoginResult loginResult) {
+//                               // System.out.println("=====sucess login fb");
+//                                getActivity().setResult(RESULT_OK);
+//                                handleFacebookAccessToken(loginResult.getAccessToken());
+//                            }
+//
+//                            @Override
+//                            public void onCancel() {
+//                                hideProgressDialog();
+//                            }
+//
+//                            @Override
+//                            public void onError(FacebookException error) {
+//                                Log.d(TAG, "facebook:onError", error);
+//                                error.printStackTrace();
+//                            }
+//                        });
+//
+//            } else
+//                setSnackBar(getString(R.string.msg_no_internet), getString(R.string.retry));
+//        });
+//
+//        mobileryt = v.findViewById(R.id.mobileryt);
+//        mobileryt.setOnClickListener(view -> {
+//            MobileBottomshit(LoginTabActivity.mAuth);
+//       /*     Intent intent = new Intent(getActivity(), MobileActivity.class);
+//            startActivity(intent);*/
+//        });
         if (!Utils.isNetworkAvailable(getActivity())) {
             setSnackBar(getString(R.string.msg_no_internet), getString(R.string.retry));
         }

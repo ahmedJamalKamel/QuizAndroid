@@ -41,30 +41,30 @@
                     card_view:cardElevation="7dp"
                     card_view:cardPreventCornerOverlap="false">
 
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/inputName"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:hint="@string/name"
-                    android:padding="@dimen/padding_15"
-                    android:textColorHint="@color/gray"
-                    app:hintTextColor="@color/black">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/edtName"
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/inputName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@color/transparent"
-                        android:maxLines="1"
-                        android:layout_marginBottom="8dp"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                        android:textColor="@color/black"
-                        android:textCursorDrawable="@drawable/curser_drawable"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:layout_centerVertical="true"
+                        android:hint="@string/name"
+                        android:padding="@dimen/margin_20dp"
+                        android:textColorHint="@color/gray"
+                        app:hintTextColor="@color/black">
 
-                </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edtName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:maxLines="1"
+                            android:layout_marginBottom="8dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="@color/black"
+                            android:textCursorDrawable="@drawable/curser_drawable"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
 
@@ -83,30 +83,30 @@
                     app:cardCornerRadius="@dimen/margin_10dp"
                     card_view:cardElevation="7dp"
                     card_view:cardPreventCornerOverlap="false">
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/inputEmail"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:hint="@string/email"
-                    android:padding="@dimen/padding_15"
-                    android:textColorHint="@color/gray"
-                    app:hintTextColor="@color/black">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/edtEmail"
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/inputEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@color/transparent"
-                        android:inputType="textEmailAddress"
-                        android:layout_marginBottom="8dp"
-                        android:maxLines="1"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                        android:textColor="@color/black"
-                        android:textCursorDrawable="@drawable/curser_drawable"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-                </com.google.android.material.textfield.TextInputLayout>
+                        android:layout_centerVertical="true"
+                        android:hint="@string/email"
+                        android:padding="@dimen/margin_20dp"
+                        android:textColorHint="@color/gray"
+                        app:hintTextColor="@color/black">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edtEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:inputType="textEmailAddress"
+                            android:layout_marginBottom="8dp"
+                            android:maxLines="1"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="@color/black"
+                            android:textCursorDrawable="@drawable/curser_drawable"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.textfield.TextInputLayout>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -126,34 +126,224 @@
                     app:cardCornerRadius="@dimen/margin_10dp"
                     card_view:cardElevation="7dp"
                     card_view:cardPreventCornerOverlap="false">
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/inputPass"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:hint="@string/password"
-                    android:padding="@dimen/padding_15"
-                    android:textColorHint="@color/gray"
-                    app:hintTextColor="@color/black">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/edtPassword"
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/inputPass"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@color/transparent"
-                        android:drawablePadding="5dp"
-                        android:inputType="textPassword"
-                        android:layout_marginBottom="8dp"
-                        android:maxLines="1"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                        android:textColor="@color/black"
-                        android:textCursorDrawable="@drawable/curser_drawable"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:layout_centerVertical="true"
+                        android:hint="@string/password"
+                        android:padding="@dimen/margin_20dp"
+                        android:textColorHint="@color/gray"
+                        app:hintTextColor="@color/black">
 
-                </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edtPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:drawablePadding="5dp"
+                            android:inputType="textPassword"
+                            android:layout_marginBottom="8dp"
+                            android:maxLines="1"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="@color/black"
+                            android:textCursorDrawable="@drawable/curser_drawable"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
                 </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:id="@+id/mobilelyt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/inputName"
+                    android:layout_marginStart="@dimen/padding_10"
+                    android:layout_marginEnd="@dimen/padding_10"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="15">
 
+                    <com.hbb20.CountryCodePicker
+                        android:id="@+id/edtCountryCodePicker"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="10"
+                        android:background="@drawable/edittext"
+                        android:gravity="center_horizontal"
+                        android:padding="19dp"
+                        app:ccpDialog_showFastScroller="true"
+                        app:ccp_contentColor="@color/black"
+                        app:ccp_showArrow="false"
+                        app:ccp_showNameCode="false"
+                        app:ccp_textSize="15sp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/inputnumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/maintxt"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="5"
+                        android:background="@drawable/edittext"
+                        android:padding="@dimen/margin_20dp"
+                        android:textColorHint="@color/gray"
+                        app:hintTextColor="@color/black">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_mobile_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_dp"
+                            android:background="@color/transparent"
+                            android:hint="@string/phone_num"
+                            android:inputType="phone"
+                            android:maxLines="1"
+                            android:maxLength="20"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray"
+                            android:textCursorDrawable="@drawable/curser_drawable"
+                            android:textSize="15sp"
+                            android:textStyle="bold">
+
+                        </com.google.android.material.textfield.TextInputEditText>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/padding_15"
+                    android:layout_marginEnd="@dimen/padding_15"
+                    android:layout_marginBottom="@dimen/margin_20dp"
+                    android:layout_weight="1"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0.0px"
+                    android:elevation="8dp"
+                    app:cardCornerRadius="@dimen/margin_10dp"
+                    card_view:cardElevation="7dp"
+                    card_view:cardPreventCornerOverlap="false">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/inputthe_University"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:hint="University"
+                        android:padding="@dimen/margin_20dp"
+                        android:textColorHint="@color/gray"
+                        app:hintTextColor="@color/black">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_the_University"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:drawablePadding="5dp"
+                            android:inputType="text"
+                            android:layout_marginBottom="8dp"
+                            android:maxLines="1"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="@color/black"
+                            android:textCursorDrawable="@drawable/curser_drawable"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/padding_15"
+                    android:layout_marginEnd="@dimen/padding_15"
+                    android:layout_marginBottom="@dimen/margin_20dp"
+                    android:layout_weight="1"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0.0px"
+                    android:elevation="8dp"
+                    app:cardCornerRadius="@dimen/margin_10dp"
+                    card_view:cardElevation="7dp"
+                    card_view:cardPreventCornerOverlap="false">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/inputthe_college"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:hint="college"
+                        android:padding="@dimen/margin_20dp"
+                        android:textColorHint="@color/gray"
+                        app:hintTextColor="@color/black">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_the_college"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:drawablePadding="5dp"
+                            android:inputType="text"
+                            android:layout_marginBottom="8dp"
+                            android:maxLines="1"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="@color/black"
+                            android:textCursorDrawable="@drawable/curser_drawable"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/padding_15"
+                    android:layout_marginEnd="@dimen/padding_15"
+                    android:layout_marginBottom="@dimen/margin_20dp"
+                    android:layout_weight="1"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0.0px"
+                    android:elevation="8dp"
+                    app:cardCornerRadius="@dimen/margin_10dp"
+                    card_view:cardElevation="7dp"
+                    card_view:cardPreventCornerOverlap="false">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/inputSquad_level"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:hint="Level/grade"
+                        android:padding="@dimen/margin_20dp"
+                        android:textColorHint="@color/gray"
+                        app:hintTextColor="@color/black">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_Squad_level"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:drawablePadding="5dp"
+                            android:inputType="text"
+                            android:layout_marginBottom="8dp"
+                            android:maxLines="1"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="@color/black"
+                            android:textCursorDrawable="@drawable/curser_drawable"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
 
                     android:layout_width="230dp"
@@ -171,32 +361,32 @@
                     app:cardCornerRadius="@dimen/margin_10dp"
                     card_view:cardElevation="7dp"
                     card_view:cardPreventCornerOverlap="false">
-                <com.google.android.material.textfield.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
 
-                    android:layout_width="230dp"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:hint="@string/refer"
-                    android:padding="@dimen/padding_15"
-                    android:textColorHint="@color/gray"
-                    app:hintTextColor="@color/black">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/edtRefer"
-                        android:layout_width="match_parent"
+                        android:layout_width="230dp"
                         android:layout_height="wrap_content"
-                        android:background="@color/transparent"
-                        android:drawablePadding="5dp"
-                        android:maxLines="1"
-                        android:paddingEnd="@dimen/margin_20dp"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                        android:textColor="@color/black"
-                        android:layout_marginBottom="8dp"
-                        android:textCursorDrawable="@drawable/curser_drawable"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:layout_centerVertical="true"
+                        android:hint="@string/refer"
+                        android:padding="@dimen/margin_20dp"
+                        android:textColorHint="@color/gray"
+                        app:hintTextColor="@color/black">
 
-                </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edtRefer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:drawablePadding="5dp"
+                            android:maxLines="1"
+                            android:paddingEnd="@dimen/margin_20dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="@color/black"
+                            android:layout_marginBottom="8dp"
+                            android:textCursorDrawable="@drawable/curser_drawable"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:id="@+id/signupryt"
