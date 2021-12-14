@@ -153,15 +153,6 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
                 Utils.displayInterstitial(DrawerActivity.this);
                 drawerLayout.closeDrawers();
                 break;
-
-            case R.id.DevicLang:
-                SignOutWarningDialog();
-                break;
-            case R.id.instruction:
-                Intent instruction = new Intent(getApplicationContext(), InstructionActivity.class);
-                instruction.putExtra("type", "instruction");
-                startActivity(instruction);
-                break;
             case R.id.share:
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("text/plain");
@@ -205,7 +196,7 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
 
         final android.app.AlertDialog alertDialog = dialog1.create();
         TextView tvenglish = dialogView.findViewById(R.id.tvenglish);
-        TextView tvHindi = dialogView.findViewById(R.id.tvHindi);
+       // TextView tvHindi = dialogView.findViewById(R.id.tvHindi);
         TextView tvArbic = dialogView.findViewById(R.id.tvArbic);
 
 
@@ -213,10 +204,10 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
             changeLocale("en");
             alertDialog.dismiss();
         });
-        tvHindi.setOnClickListener(view -> {
-            changeLocale("hi");
-            alertDialog.dismiss();
-        });
+//        tvHindi.setOnClickListener(view -> {
+//            changeLocale("hi");
+//            alertDialog.dismiss();
+//        });
         alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         alertDialog.setCancelable(false);
         alertDialog.show();

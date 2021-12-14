@@ -122,10 +122,10 @@ public class LoginActivityFragment extends Fragment {
         inputEmail = v.findViewById(R.id.inputEmail);
         inputPass =  v.findViewById(R.id.inputPass);
         loginrlyt =  v.findViewById(R.id.loginrlyt);
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build();
-
-        mGoogleSignInClient = GoogleSignIn.getClient(getActivity(), gso);
-        mGoogleSignInClient.signOut();
+//        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build();
+//
+//        mGoogleSignInClient = GoogleSignIn.getClient(getActivity(), gso);
+//        mGoogleSignInClient.signOut();
         LoginTabActivity.mAuth = FirebaseAuth.getInstance();
         mCallbackManager = CallbackManager.Factory.create();
 
@@ -172,15 +172,15 @@ public class LoginActivityFragment extends Fragment {
                         hideProgressDialog();
                     });
         });
-        fragmenttxt =  v.findViewById(R.id.fragmenttxt);
-        fragmenttxt.setOnClickListener(view -> BottomSheetDialog(LoginTabActivity.mAuth));
-        googleryt =  v.findViewById(R.id.googleryt);
-        googleryt.setOnClickListener(view -> {
-            if (Utils.isNetworkAvailable(getActivity()))
-                signIn();
-            else
-                setSnackBar(getString(R.string.msg_no_internet), getString(R.string.retry));
-        });
+//        fragmenttxt =  v.findViewById(R.id.fragmenttxt);
+//        fragmenttxt.setOnClickListener(view -> BottomSheetDialog(LoginTabActivity.mAuth));
+//        googleryt =  v.findViewById(R.id.googleryt);
+//        googleryt.setOnClickListener(view -> {
+//            if (Utils.isNetworkAvailable(getActivity()))
+//                signIn();
+//            else
+//                setSnackBar(getString(R.string.msg_no_internet), getString(R.string.retry));
+//        });
 //        faceookryt = v.findViewById(R.id.faceookryt);
 //        faceookryt.setOnClickListener(view -> {
 //            if (Utils.isNetworkAvailable(getActivity())) {

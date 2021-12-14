@@ -149,16 +149,16 @@ public class MainActivity extends DrawerActivity {
             } else {
                 getMainCategoryFromJson();
             }
-            imgLanguage.setVisibility(View.VISIBLE);
+//            imgLanguage.setVisibility(View.VISIBLE);
         } else {
             getMainCategoryFromJson();
-            imgLanguage.setVisibility(View.GONE);
+//            imgLanguage.setVisibility(View.GONE);
         }
 
-        imgLanguage.setOnClickListener(view -> {
-            if (alertDialog != null)
-                alertDialog.show();
-        });
+//        imgLanguage.setOnClickListener(view -> {
+//            if (alertDialog != null)
+//                alertDialog.show();
+//        });
         imgBack.setOnClickListener(view -> drawerLayout.openDrawer(GravityCompat.START));
 
 
@@ -201,7 +201,7 @@ public class MainActivity extends DrawerActivity {
         tvCoin = findViewById(R.id.tv_coin);
         tvRank = findViewById(R.id.tv_rank);
         imgBack = findViewById(R.id.img_back_main);
-        imgLanguage = findViewById(R.id.imgLanguage);
+//        imgLanguage = findViewById(R.id.imgLanguage);
         imgStore = findViewById(R.id.imgStore);
         lytContest = findViewById(R.id.lytContest);
         tvAlert = findViewById(R.id.tvAlert);

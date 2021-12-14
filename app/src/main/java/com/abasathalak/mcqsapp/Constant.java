@@ -192,10 +192,10 @@ public class Constant {
     public static String DESTROY_GAME_KEY = "destroy_match";
 
 
-    public static int MAX_MINUTES = 60; //max minutes for self challenge quiz
-    public static int MAX_QUESTION_PER_BATTLE = 10; // max question per level
-    public static int RANDOM_QUE_LIMIT = 10;
-    public static int PRACTICE_QUE_LIMIT = 10;
+    public static int MAX_MINUTES = 120; //max minutes for self challenge quiz
+    public static int MAX_QUESTION_PER_BATTLE = 1000; // max question per level
+    public static int RANDOM_QUE_LIMIT = 1000;
+    public static int PRACTICE_QUE_LIMIT = 1000;
     public static int TOTAL_COINS;
     public static int RESET_SKIP_COINS = 2;
     public static int FIFTY_AUD_COINS = 4;
@@ -212,7 +212,7 @@ public class Constant {
     public static String SHARE_APP_TEXT;
     public static String REFER_COIN_VALUE;
     public static String EARN_COIN_VALUE;
-    public static int REWARD_COIN_VALUE = 0;
+    public static int REWARD_COIN_VALUE = 2;
     public static String VERSION_CODE;
     public static String REQUIRED_VERSION;
     public static String DAILY_QUIZ_ON;
@@ -252,8 +252,8 @@ public class Constant {
     public static int TIME_PER_QUESTION = 25000000;  //here we set 25 second to milliseconds
     public static int COUNT_DOWN_TIMER = 1000; //here we set 1 second
     public static int OPPONENT_SEARCH_TIME = 20000; // time for search opponent for battle
-    public static int WAIT_TIME = 60000; // time for search opponent for battle
-    public static int GROUP_WAIT_TIME = 180000; // time for search opponent for battle
+    public static int WAIT_TIME = 600000; // time for search opponent for battle
+    public static int GROUP_WAIT_TIME = 1800000; // time for search opponent for battle
     public static int FOR_CORRECT_ANS = 1; // mark for correct answer
     public static int PENALTY = 0;// minus mark for incorrect
 

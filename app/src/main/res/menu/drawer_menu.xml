@@ -30,17 +30,10 @@
             android:title="@string/invite_frnd" />
 
         <item
-            android:id="@+id/instruction"
-            android:icon="@drawable/ic_introduction"
-            android:title="@string/instruction" />
-        <item
             android:id="@+id/setting"
             android:icon="@drawable/ic_settings"
             android:title="@string/action_settings" />
-        <item
-            android:id="@+id/DevicLang"
-            android:icon="@drawable/ic_language1"
-            android:title="@string/device_language" />
+
         <item
             android:id="@+id/share"
             android:icon="@drawable/ic_share"

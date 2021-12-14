@@ -39,7 +39,7 @@
     <application
         android:name="com.abasathalak.mcqsapp.helper.AppController"
         android:allowBackup="false"
-        android:icon="@drawable/ic_homelogo"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@drawable/ic_homelogo"
